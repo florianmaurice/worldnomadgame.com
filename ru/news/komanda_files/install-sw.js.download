@@ -1,0 +1,63 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+window.addEventListener('load', function() {
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        // caches.keys().then(function(cacheNames) {
+        //     cacheNames.forEach(function(cacheName) {
+        //         caches.delete(cacheName);
+        //     });
+        // });
+
+        navigator.serviceWorker.register('/sw.js?v=2', { scope: '/' });
+    }
+});
+
+
+}
+/*
+<<<<<<< HEAD
+     FILE ARCHIVED ON 04:31:27 Jan 12, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:06:42 Oct 02, 2025.
+=======
+     FILE ARCHIVED ON 14:44:32 Apr 14, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:43:52 Oct 02, 2025.
+>>>>>>> 7916e89 (Initial commit)
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+<<<<<<< HEAD
+  captures_list: 0.799
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.014
+  esindex: 0.018
+  cdx.remote: 10.974
+  LoadShardBlock: 74.804 (3)
+  PetaboxLoader3.datanode: 83.546 (4)
+  PetaboxLoader3.resolve: 82.935 (3)
+  load_resource: 149.524
+=======
+  captures_list: 0.603
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.011
+  esindex: 0.014
+  cdx.remote: 7.438
+  LoadShardBlock: 1247.962 (3)
+  PetaboxLoader3.datanode: 1138.423 (4)
+  PetaboxLoader3.resolve: 274.682 (3)
+  load_resource: 200.483
+>>>>>>> 7916e89 (Initial commit)
+*/
