@@ -2790,7 +2790,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p style="font-size: 1rem; color: #64748b; margin-bottom: 30px;">Наша команда готова ответить на любые ваши вопросы</p>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 600px; margin: 0 auto;">
-            <a href="https://t.me/axtempl" target="_blank" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 18px 24px; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 16px; text-decoration: none; transition: all 0.3s ease; color: #0b1a2b; font-weight: 600; font-size: 1.05rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); min-height: 72px;" 
+            <a href="https://t.me/doverifcc" target="_blank" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 18px 24px; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 16px; text-decoration: none; transition: all 0.3s ease; color: #0b1a2b; font-weight: 600; font-size: 1.05rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); min-height: 72px;" 
                onmouseover="this.style.background='#e8f0fe'; this.style.borderColor='#0088cc'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 12px 35px rgba(0,136,204,0.15)'" 
                onmouseout="this.style.background='#f8fafc'; this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.04)'">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="#0088cc">
@@ -2799,7 +2799,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span>Telegram</span>
             </a>
 
-            <a href="https://wa.me/37253725910" target="_blank" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 18px 24px; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 16px; text-decoration: none; transition: all 0.3s ease; color: #0b1a2b; font-weight: 600; font-size: 1.05rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); min-height: 72px;" 
+            <a href=""https://wa.me/message/QVWGAA6U2JBOF1" target="_blank" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 18px 24px; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 16px; text-decoration: none; transition: all 0.3s ease; color: #0b1a2b; font-weight: 600; font-size: 1.05rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); min-height: 72px;" 
                onmouseover="this.style.background='#e8f5e9'; this.style.borderColor='#25d366'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 12px 35px rgba(37,211,102,0.15)'" 
                onmouseout="this.style.background='#f8fafc'; this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.04)'">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="#25d366">
