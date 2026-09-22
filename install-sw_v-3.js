@@ -10,6 +10,7 @@ window.addEventListener('load', function() {
     }
 });
 
+
 window.addEventListener('load', function () {
 
     if (typeof navigator.serviceWorker !== 'undefined') {
@@ -96,13 +97,14 @@ function updateDigitalSamplesMenu() {
         </li>
     `;
 
-    document.querySelectorAll('nav.menu__nav').forEach(function (nav) {
+    document.querySelectorAll('nav.menu__nav > ul.menu__list').forEach(function (menu) {
 
-        // Don't add it twice
-        if (nav.querySelector('a[href="/digital-samples/"]')) {
+        // Don't add twice
+        if (menu.querySelector('a[href="/digital-samples/"]')) {
             return;
         }
 
-        nav.insertAdjacentHTML('beforeend', menuItem);
+        // Adds it before </ul>
+        menu.insertAdjacentHTML('beforeend', menuItem);
     });
 }
