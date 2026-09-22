@@ -27,14 +27,14 @@
 	display: flex;
 	align-items: center;
 	/* height: var(--nav-height); */
-	max-width: 1280px;
+	/* max-width: 1280px; */
 	margin: 0 auto;
 	padding: 0 24px;
 }
 
 /* Logo takes the left 20% */
 .header-logo {
-	flex: 0 0 20%;
+	flex: 0 0 12%;
 	max-width: 20%;
 	display: flex;
 	align-items: center;
@@ -330,6 +330,9 @@
 	.main-nav { display: none; }
 	.hamburger { display: flex; }
 	.header-logo { flex: 0 0 auto; max-width: none; }
+	.header-inner{
+		height: var(--nav-height);
+	}
 }
 
 @media (min-width: 961px) {
