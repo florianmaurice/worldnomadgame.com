@@ -26,7 +26,7 @@ function updateDigitalSamplesMenu() {
 
     const menuItem = `
         <li class="menu__item has-subnav">
-            <a class="menu__link has-subnav" href="/digital-samples/">
+            <a class="menu__link has-subnav" href="#">
                 <span>Цифровые образцы</span>
                 <svg class="icon icon--arrow icon--arrow-down">
                     <use/>
